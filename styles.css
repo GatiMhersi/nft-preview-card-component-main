@@ -1,5 +1,6 @@
 body {
   background-color: hsl(217, 54%, 11%);
+  min-height: 90vh;
 }
 
 h1, h2, p{
@@ -7,13 +8,21 @@ h1, h2, p{
   margin: 0 ;
 }
 
+footer{
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 .card {
   background-color: hsl(216, 50%, 16%);
   width: 20%;
   min-width: 284px;
   height: 32rem;
-  margin: auto;
+  margin: 5% auto;
   border-radius: 1rem;
   padding: 1.5rem;
   display: flex;
