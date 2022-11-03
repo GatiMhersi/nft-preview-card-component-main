@@ -1,0 +1,123 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+h1, h2, p{
+  font-family: 'Outfit';
+  margin: 0 ;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 20%;
+  min-width: 284px;
+  height: 32rem;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.img-container{
+  margin: 0 auto;
+  flex-grow: 3;
+}
+
+.img-card{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.title{
+  flex-grow: 2;
+}
+
+.title h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+}
+
+.description{
+  flex-grow: 2;
+}
+.description p{
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  line-height: 1.5;
+}
+
+.price-time{
+  flex-grow: 4;
+  display: flex;
+}
+
+.price{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.time{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.price h2{
+  color: hsl(178, 100%, 50%);
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.time h2{
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.separator{
+  flex-grow: 1;
+}
+
+.separator hr{
+  background-color: none;
+  height: 0.05rem;
+  width: 100%;
+  border: none;
+  border-top: 0.05rem solid hsl(215, 32%, 27%);
+}
+
+.creator{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.creator h2 {
+  margin-left: 1.5rem;
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.creator h2 span{
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.img-avatar{
+  display: inline-block;
+  width: 10%;
+  border: 0.05rem solid white;
+  border-radius: 50%;
+
+}
